@@ -1,0 +1,50 @@
+IMDB:
+  K: 1
+  emb_dim: 1024
+  hidden: 1024
+  input_drop: 0.05
+  dropout: 0.7
+  lr: 0.0005
+  wd: 0.0005
+  prop_lr: 0.008
+  prop_wd: 0.0
+  threshold: 1
+  gamma: 1
+DBLP:
+  K: 5
+  emb_dim: 128
+  hidden: 64
+  input_drop: 0
+  dropout: 0.1
+  lr: 0.007
+  wd: 0.0003
+  prop_lr: 0.002
+  prop_wd: 0.8
+  threshold: 1.3
+  gamma: 1
+
+ACM:
+  K: 3
+  emb_dim: 64
+  hidden: 128
+  input_drop: 0.9
+  dropout: 0.25
+  lr: 0.001
+  wd: 0.0002
+  prop_lr: 0.02
+  prop_wd: 0.8
+  threshold: 1.3
+  gamma: 1
+
+AMiner:
+  K: 12
+  emb_dim: 64
+  hidden: 48
+  input_drop: 0.
+  dropout: 0.
+  lr: 0.0001
+  wd: 0.0001
+  prop_lr: 0.0001
+  prop_wd: 0.0001
+  threshold: 1.3
+  gamma: 1
